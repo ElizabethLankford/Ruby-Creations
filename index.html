@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Jost:wght@300;400;500;700&family=Playfair+Display:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ruby Creations</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="brand-title">Ruby Creations</div>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="navlink" href="#Hero">Home</a></li>
+                    <li><a class="navlink" href="#Shop">Shop</a></li>
+                    <li><a class="navlink" href="#About">About</a></li>
+                    <li><a class="navlink" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="Hero" class="hero">
+            <div class="hero-text">
+                <h1>Unique handmade jewelry with multiple textures and culturally inspired designs.</h1>
+            </div>
+        </section>
+        <section id="Shop" class="container-shop">
+            <div class="inner-container shop-section">
+                <h3 class="section-title">Available Earrings</h3>
+                <div id="item-container" class="item-container">
+                    <!-- SHOP INVENTORY -->
+                </div>
+            </div>
+        </section>
+        <section id="About" class="container">
+            <div class="inner-container about-section" >
+                <h2>About</h2>
+                <p>
+                    This is a family owned business based out of North Carolina. Ruby is the artist behind all the jewlery designed on our site. Everything is handcrafted and made by her. We also take custom orders, just let us know what you want to personalize your order.</p>
+            </div>
+        </section>
+        <section id="Contact" class="container">
+            <div class="inner-container contact-section">   
+                <h2>Contact</h2>
+                <form action="https://formsubmit.co/elizabethlankford1@gmail.com" method="POST">
+                    <label>Name</label>
+                    <input type="text" name="name" required>
+                    <label>Email</label>
+                    <input type="email" name="email" required/>
+                    <input type="hidden" name="_subject" value="Ruby Creations - New submission!">
+                    <label>Message</label>
+                    <textarea required rows="4"></textarea>
+                    <div class="contact-links">
+                    <button id="form-btn" type="submit">Send</button>
+                    <div class="social-links">
+                        <a><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                        <a><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                        <a><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+<div id="Cart" class="cart-container">
+    <div class="close-cart-btn-container">
+        <button class="close-cart-btn">X</button>
+    </div>
+    <div class="cart-header">
+        <h3 class="cart-title">Shopping Cart</h3>
+        <button class="action-rmv">Remove all</button>
+    </div>
+<div class="cart-dom">
+    <!-- CART ITEMS GO HERE -->
+</div>
+
+    <hr>
+    <div class="checkout">
+        <div class="total">
+            <div>
+                <div class="subtotal">Sub-total</div>
+                <div class="num-items">items</div>
+            </div>
+            <div class="total-amt">$</div>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</div>
+<div id="cart-icon"><i class="fa-solid fa-cart-shopping fa-2xl"></i></div>
+        <footer>
+            <p>Copyright 2022 Elizabeth Lankford</p>
+        </footer>
+        <script src="https://kit.fontawesome.com/5529f4d66e.js" crossorigin="anonymous" ></script>
+        <script src="script.js" ></script>
+    </body>
+</html>

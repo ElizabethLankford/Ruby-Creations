@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "image": "./images/supply/white_1.png",
+        "name": "White Earrings",
+        "price": "30",
+        "quantity": 1
+
+    },
+    {
+        "id": 2,
+        "image": "./images/supply/black_2.png",
+        "name": "Black Earrings",
+        "price": "25",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "image": "./images/supply/gold_1.png",
+        "name": "Gold Earrings",
+        "price": "25",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "image": "./images/supply/yellow_1.png",
+        "name": "Yellow Earrings",
+        "price": "20",
+        "quantity": 1
+    }
+]
